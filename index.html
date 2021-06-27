@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="employee-dialog" class="dialog">
+        <div class="dialog-content">
+            <span class="close" id="close">&times;</span>
+            <div class="dialog-wrapper">
+                <h1>Select an Employee</h1>
+                <input type="checkbox" id="welcome" name="welcome" value="checked">
+                <label for="welcome email" >Send welcome email to employee</label>
+                <div class="input-wrapper">
+                    <label for="team">Select a team in the organization</label>
+                    <input list="team" name="team" id="team" onkeyup="getList()" >
+                     <div class="predictions" id="predictionList">
+                        
+                     </div>
+                    <label for="employee">Select an employee</label>
+                    <input list="employee" name="employee">
+                </div>
+                <div class="button-row">
+                    <button class="cancel" type="button">Cancel</button>
+                    <button class="submit" type="button">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src='/app.js'></script>
+
+
+
+</html>

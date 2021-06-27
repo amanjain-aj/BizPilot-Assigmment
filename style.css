@@ -1,0 +1,90 @@
+.dialog {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255 251 251 / 4%);
+}
+.dialog-content {
+    background-color: #eeeeee5c;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    width: 30%;
+    box-shadow: 5px 5px 18px 2px #888888;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.button-row {
+    text-align: right;
+    margin-top: 20px;
+}
+.dialog-wrapper h1{
+    
+        color: #2196f3;
+}
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
+.input-wrapper{
+    margin-top: 15px;
+}
+.input-wrapper label{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.input-wrapper input{
+    height: 45px;
+    padding: 5px;
+    background: #ddd;
+    border: none;
+    font-size: 24px;
+}
+button.cancel{
+    background: #dddddd;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    font-size: 18px;
+}
+button.submit{
+    background: #2196f3;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+}
+.predictions {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    /* display: none; */
+    
+}
+.predictions ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+.predictions li {
+    padding: 2px;
+}
